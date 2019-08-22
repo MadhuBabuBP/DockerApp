@@ -12,7 +12,7 @@ RUN yum -y install java
 RUN java -version
 
 WORKDIR /opt/tomcat/webapps
-RUN curl -O -L https://github.com/ThanishInfotech/Docker1/raw/master/dist/SampleWebApp.war
+RUN curl -O -L https://github.com/MadhuBabuBP/DockerApp/blob/master/SampleWebApp-NB.zip
 
 EXPOSE 8080
 
